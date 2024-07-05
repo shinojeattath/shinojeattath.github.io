@@ -26,7 +26,7 @@ const ContactForm = () => {
       .then((result) => {
         console.log(result.text);
         setFormData({ user_name: '', user_email: '', message: '' });
-        alert('Message sent successfully!');
+        alert('Thank you for Messaging! I will get in touch with you as soon as possible.');
       }, (error) => {
         console.log(error.text);
         alert('Failed to send message. Please try again.');
